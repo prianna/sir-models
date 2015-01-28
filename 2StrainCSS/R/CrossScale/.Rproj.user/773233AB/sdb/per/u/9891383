@@ -1,0 +1,17 @@
+{
+    "contents" : "r20children <- numeric(0)\nfor (i in 1:length(r20$V1))\n{\n  if (r20$V3[i] > 1)\n  {\n    r20children <- c(r20children, r20$V1[i])\n  }\n}",
+    "created" : 1385344591696.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2962084699",
+    "id" : "9891383",
+    "lastKnownWriteTime" : 4611686018427387904,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

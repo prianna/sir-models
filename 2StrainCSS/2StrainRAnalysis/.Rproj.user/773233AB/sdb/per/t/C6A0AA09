@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1384834945218.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C6A0AA09",
+    "lastKnownWriteTime" : 7237088142020521728,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "R0SS12",
+        "contentUrl" : "content?title=R0SS12&file=9fc890519ecd426e9d48f993ff855d4c.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 6,
+        "totalObservations" : "1306",
+        "variables" : "6"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

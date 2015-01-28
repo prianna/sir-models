@@ -1,0 +1,109 @@
+TGillespieSI
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug/GillespieSI" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/GillespieSI.LinkFileList
+c00000000516C947A00000000000000AA
+t1366070394
+s170
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug/GillespieSI
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp
+c00000000516C94790000000000001321
+t1366070393
+s4897
+i<iostream>
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/main.cpp
+c00000000516C9439000000000000011B
+t1366070329
+s283
+i<iostream>
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/main.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies742304facb1cb741^4cfd0cfacb1cb741^---0#1#0#--18"Check dependencies36"0B63ED96-9305-4D79-995F-429F7A01BE01-
+
+CCompileC Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387763194.077763
+e387763195.330227
+r1
+xCompileC
+xBuild/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.o
+x/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:39:25: warning: unused variable 'str' [-Wunused-variable]
+o    char FileName[1000],str[200];
+o                        ^
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:40:12: warning: unused variable 'Every' [-Wunused-variable]
+o    double Every;
+o           ^
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:37:11: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]
+o    srand(time(0));
+o    ~~~~~ ^~~~~~~
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:125:21: warning: format specifies type 'double *' but the argument has type 'int *' [-Wformat]
+o    fscanf(in,"%lf",&S0);
+o               ~~~  ^~~
+o               %d
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:128:21: warning: format specifies type 'double *' but the argument has type 'int *' [-Wformat]
+o    fscanf(in,"%lf",&I0);
+o               ~~~  ^~~
+o               %d
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:140:99: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+o    if(S0<=0) {printf("ERROR: Initial level of susceptibles (%g) is less than or equal to zero\n",S0); exit(1);}
+o                                                             ~~                                   ^~
+o                                                             %d
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:142:96: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+o    if(I0<=0) {printf("ERROR: Initial level of infecteds (%g) is less than or equal to zero\n",I0); exit(1);}
+o                                                          ~~                                   ^~
+o                                                          %d
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:168:57: warning: array index 5 is past the end of the array (which contains 5 elements) [-Warray-bounds]
+o        double totalRate = rates[1]+rates[2]+rates[3]+rates[4]+rates[5];
+o                                                               ^     ~
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:166:2: note: array 'rates' declared here
+o        double rates[NUM_EVENTS] = { beta*S*I, beta*S*IM, gamm*beta*S*I, mu*I, mu*IM };
+o        ^
+o8 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp7d2514facb1cb741^1e8854fbcb1cb741^-2734"/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:39:25: warning: unused variable 'str' [-Wunused-variable]    char FileName[1000],str[200];                        ^/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:40:12: warning: unused variable 'Every' [-Wunused-variable]    double Every;           ^/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:37:11: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]    srand(time(0));    ~~~~~ ^~~~~~~/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:125:21: warning: format specifies type 'double *' but the argument has type 'int *' [-Wformat]    fscanf(in,"%lf",&S0);               ~~~  ^~~               %d/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:128:21: warning: format specifies type 'double *' but the argument has type 'int *' [-Wformat]    fscanf(in,"%lf",&I0);               ~~~  ^~~               %d/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:140:99: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]    if(S0<=0) {printf("ERROR: Initial level of susceptibles (%g) is less than or equal to zero\n",S0); exit(1);}                                                             ~~                                   ^~                                                             %d/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:142:96: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]    if(I0<=0) {printf("ERROR: Initial level of infecteds (%g) is less than or equal to zero\n",I0); exit(1);}                                                          ~~                                   ^~                                                          %d/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:168:57: warning: array index 5 is past the end of the array (which contains 5 elements) [-Warray-bounds]        double totalRate = rates[1]+rates[2]+rates[3]+rates[4]+rates[5];                                                               ^     ~/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp:166:2: note: array 'rates' declared here        double rates[NUM_EVENTS] = { beta*S*I, beta*S*IM, gamm*beta*S*I, mu*I, mu*IM };        ^8 warnings generated.8(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'str'-387763195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^38#24#38#24#697#0#19"Unused Entity Issue--2@23"Unused variable 'Every'-387763195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^39#11#39#11#718#0#19"Unused Entity Issue--2@84"Implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int'-387763195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^36#10#36#10#658#0#14"Semantic Issue2(3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^36#10#36#17#658#6#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^36#4#36#9#652#0#-2@66"Format specifies type 'double *' but the argument has type 'int *'-387763195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^124#20#124#20#2502#0#19"Format String Issue3(3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^124#20#124#23#2502#1#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^124#15#124#18#2497#3#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^124#15#124#18#2497#3#-2@66"Format specifies type 'double *' but the argument has type 'int *'-387763195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^127#20#127#20#2558#0#19"Format String Issue3(3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^127#20#127#23#2558#1#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^127#15#127#18#2553#3#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^127#15#127#18#2553#3#-2@62"Format specifies type 'double' but the argument has type 'int'-387763195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^139#98#139#98#2773#0#19"Format String Issue3(3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^139#98#139#100#2773#0#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^139#61#139#63#2736#2#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^139#61#139#63#2736#2#-2@62"Format specifies type 'double' but the argument has type 'int'-387763195#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^141#95#141#95#2888#0#19"Format String Issue3(3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^141#95#141#97#2888#0#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^141#58#141#60#2851#2#3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^141#58#141#60#2851#2#-2@70"Array index 5 is past the end of the array (which contains 5 elements)-387763195#18446744073709551615#0#1(2@27"Array 'rates' declared here-387763195#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^165#1#165#1#3654#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^167#56#167#56#3816#0#14"Semantic Issue1(3@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^167#62#167#63#3822#0#-0#0#0#-19%DVTDocumentLocation4@117"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp0000000000000000^3475"CompileC Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.o GillespieSI/Gillespie.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/GillespieSI-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/GillespieSI-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/GillespieSI-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/GillespieSI-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/Gillespie.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/Gillespie.o"36"4275D974-81F1-4512-871D-B46571316295-
+
+CCompileC Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/GillespieSI/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug/GillespieSI" normal x86_64
+s387763195.337326
+e387763197.079713
+r1
+xLd
+x/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug/GillespieSI
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug/GillespieSIfc6e56fbcb1cb741^cf6714fdcb1cb741^---0#0#0#--941"Ld Build/Products/Debug/GillespieSI normal x86_64    cd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug" "-F/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug" -filelist "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Intermediates/GillespieSI.build/Debug/GillespieSI.build/Objects-normal/x86_64/GillespieSI.LinkFileList" -mmacosx-version-min=10.8 -stdlib=libc++ -o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/GillespieSI/Build/Products/Debug/GillespieSI"36"4468CF61-3A6E-44B5-B46F-11BAB16A2749-
+

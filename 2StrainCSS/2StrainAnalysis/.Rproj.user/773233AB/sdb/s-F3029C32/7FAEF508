@@ -1,0 +1,21 @@
+{
+    "contents" : "",
+    "created" : 1380282615548.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7FAEF508",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "properties" : {
+        "caption" : "WT06P1V2",
+        "contentUrl" : "content?title=WT06P1V2&file=0a20040d83be41f2b9b74f2055043c9b.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 7,
+        "totalObservations" : "22028",
+        "variables" : "7"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

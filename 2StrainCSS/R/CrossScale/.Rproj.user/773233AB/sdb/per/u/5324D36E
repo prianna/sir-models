@@ -1,0 +1,17 @@
+{
+    "contents" : "r20births <- numeric(0)\nfor (i in 1:length(r20$V6))\n{\n  if (r20$V3[i] == 1)\n  {\n    r20births <- c(r20births, r20$V6[i])\n  }\n}",
+    "created" : 1385342623371.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2737355368",
+    "id" : "5324D36E",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

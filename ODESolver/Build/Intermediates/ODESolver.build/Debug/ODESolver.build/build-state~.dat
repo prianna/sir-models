@@ -1,0 +1,103 @@
+TODESolver
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C15EE700000000000000AA
+t1371627239
+s170
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODE.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.LinkFileList
+c00000000520AB4AA0000000000000092
+t1376433322
+s146
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolver
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.cpp
+c00000000520AB43D0000000000000099
+t1376433213
+s153
+i"ODE.h"
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.h
+c00000000520AB43D00000000000000FB
+t1376433213
+s251
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp
+c00000000520AB46400000000000000A5
+t1376433252
+s165
+i"ODESolver.h"
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.h
+c00000000520AB4AA00000000000003C7
+t1376433322
+s967
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/main.cpp
+c00000000520AAF540000000000000119
+t1376431956
+s281
+i<iostream>
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/main.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7bd7d02aecbab741^0d71d42aecbab741^---0#1#0#--18"Check dependencies36"427C658B-F628-460D-828A-943136B14320-
+
+CCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODE.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s398126122.832717
+e398126123.985654
+r0
+xCompileC
+xBuild/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o
+x/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp:9:
+o/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.h:36:26: error: use of undeclared identifier 'K'
+o    void Diff(double Pop[K]);
+o                         ^
+o/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.h:44:17: error: use of undeclared identifier 'K'
+o    double dPop[K];
+o                ^
+o2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp0762d52aecbab741^7651fc2becbab741^-464"In file included from /Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp:9:/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.h:36:26: error: use of undeclared identifier 'K'    void Diff(double Pop[K]);                         ^/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.h:44:17: error: use of undeclared identifier 'K'    double dPop[K];                ^2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@32"Use of undeclared identifier 'K'-398126123#18446744073709551615#0#1(2@102"In file included from /Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp:9:-398126123#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/ODESolver/ODESolver/ODESolver.cpp0000000000000000^8#9#8#9#151#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/ODESolver/ODESolver/ODESolver.h0000000000000000^35#25#35#25#660#0#14"Semantic Issue--2@32"Use of undeclared identifier 'K'-398126123#18446744073709551615#0#1(2@102"In file included from /Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp:9:-398126123#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@95"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/ODESolver/ODESolver/ODESolver.cpp0000000000000000^8#9#8#9#151#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/ODESolver/ODESolver/ODESolver.h0000000000000000^43#16#43#16#863#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/ODESolver/ODESolver/ODESolver.cpp0000000000000000^3163"CompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o ODESolver/ODESolver.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/ODESolver"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o"36"7B62E8BA-2802-4909-8E15-E717976A48A3-
+
+CCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolver" normal x86_64
+r0
+

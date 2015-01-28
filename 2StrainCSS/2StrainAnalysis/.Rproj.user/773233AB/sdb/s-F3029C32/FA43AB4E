@@ -1,0 +1,16 @@
+{
+    "contents" : "xlabR0tot=\"Simulated R0\"\nxlabR0V1= \"Simulated R0 for Type 1\"\nxlabR0V2=\"Simulated R0\"\nylabMW=\"Mean Bottleneck Width\"\nplot(MWvR0, xlab=xlabR0V2, ylab=ylabMW, type = \"o\", col=\"blue\")\nlines(MWvR01, type=\"o\", col=\"red\")\n\n\nplot(dataframe1, xlab=xlab, ylab=ylab, col=\"blue\", pch=\".\")\nlines(dataframe2, col=\"red\")\ntitle(main=\"Within Host Dynamics\", col.main=\"Black\", font.main=1, cex.main=0.9, cex.sub=0.65, sub=\"Growth rate type 1 is 1.6, type 2 is 0.9\")\nlegend(0.15,9000, cex=0.8, c(\"Type 1\", \"Type 2\"), lty=c(1, 1), col=c(\"blue\", \"red\")) # gives the legend lines the correct color and width\n",
+    "created" : 1380314250085.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3720684267",
+    "id" : "FA43AB4E",
+    "lastKnownWriteTime" : 1380648520,
+    "path" : "~/Documents/Courses/SIRModels/2StrainCSS/2StrainAnalysis/2StrainAnalysis2.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

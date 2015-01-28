@@ -1,0 +1,152 @@
+TCrossScaleSim
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.o "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C15EE700000000000000AA
+t1371627239
+s170
+
+N/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScaleSim.LinkFileList
+c0000000051C1FFBE0000000000000138
+t1371668414
+s312
+
+N/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Products/Debug/CrossScaleSim
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp
+c0000000051C1EC5900000000000000AB
+t1371663449
+s171
+
+N/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp
+c0000000051C1FFBE000000000000054D
+t1371668414
+s1357
+i<iostream>
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd601603e3772b741^bb9d653e3772b741^---0#1#0#--18"Check dependencies36"F19F96AB-EC8E-4913-B252-BEB3D2725739-
+
+CCompileC Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.o "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393361214.401337
+e393361215.386080
+r0
+xCompileC
+xBuild/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.o
+x/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:45:14: error: no type named 'vector' in namespace 'std'; did you mean 'hecto'?
+o        std::vector parentvir =
+o        ~~~~~^~~~~~
+o             hecto
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ratio:264:43: note: 'hecto' declared here
+otypedef ratio<                100LL, 1LL> hecto;
+o                                          ^
+oIn file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:46:5: error: expected expression
+o    }
+o    ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:24: error: expected '}'
+o#include "CrossScale.h"
+o                       ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:44:5: note: to match this '{'
+o    {
+o    ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:105:2: error: expected ';' after class
+o};
+o ^
+o ;
+o4 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cppc7f6663e3772b741^81cc623f3772b741^-1267"In file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:45:14: error: no type named 'vector' in namespace 'std'; did you mean 'hecto'?        std::vector parentvir =        ~~~~~^~~~~~             hecto/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ratio:264:43: note: 'hecto' declared heretypedef ratio<                100LL, 1LL> hecto;                                          ^In file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:46:5: error: expected expression    }    ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:24: error: expected '}'#include "CrossScale.h"                       ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:44:5: note: to match this '{'    {    ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:105:2: error: expected ';' after class}; ^ ;4 errors generated.4(36%IDEClangDiagnosticActivityLogMessage2@64"No type named 'vector' in namespace 'std'; did you mean 'hecto'?-393361215#18446744073709551615#0#2(2@111"In file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:-393361215#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@104"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp0000000000000000^8#9#8#9#156#0#21"Clang LLVM 1.0 Notice--2@21"'hecto' declared here-393361215#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@115"file://localhost/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/c++/v1/ratio0000000000000000^263#42#263#42#7629#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@102"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.h0000000000000000^44#13#44#13#978#0#14"Semantic Issue2(3@102"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.h0000000000000000^44#8#44#13#973#3#3@102"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.h0000000000000000^44#13#44#19#978#6#-2@19"Expected expression-393361215#18446744073709551615#0#1(2@111"In file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:-393361215#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp0000000000000000^8#9#8#9#156#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@102"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.h0000000000000000^45#4#45#4#1001#0#11"Parse Issue--2@12"Expected '}'-393361215#18446744073709551615#0#1(2@17"To match this '{'-393361215#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@102"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.h0000000000000000^43#4#43#4#963#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp0000000000000000^8#23#8#23#170#0#11"Parse Issue--2@24"Expected ';' after class-393361215#18446744073709551615#0#1(2@111"In file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp:9:-393361215#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp0000000000000000^8#9#8#9#156#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@102"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.h0000000000000000^104#1#104#1#2873#0#11"Parse Issue1(3@102"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.h0000000000000000^104#1#104#1#2873#0#-0#0#0#-19%DVTDocumentLocation4@104"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp0000000000000000^3325"CompileC Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.o CrossScaleSim/CrossScale.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/CrossScale.o"36"5E73CE0A-139E-47CC-8E86-E2F817930990-
+
+CCompileC Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393361214.401340
+e393361215.487545
+r0
+xCompileC
+xBuild/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.o
+x/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:12:
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:45:14: error: no type named 'vector' in namespace 'std'; did you mean 'hecto'?
+o        std::vector parentvir =
+o        ~~~~~^~~~~~
+o             hecto
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ratio:264:43: note: 'hecto' declared here
+otypedef ratio<                100LL, 1LL> hecto;
+o                                          ^
+oIn file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:12:
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:46:5: error: expected expression
+o    }
+o    ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:30:5: error: expected expression
+o    for (int i = 0; i < vtypes.size(); i++)
+o    ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:36:2: error: expected ';' at end of declaration
+o}
+o ^
+o ;
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:39:6: error: illegal initializer (only variables can be initialized)
+ovoid betweenHost( int c, std::vector<double> t )
+o     ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:41:2: error: expected ';' at end of declaration
+o}
+o ^
+o ;
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:45:44: error: expected '(' for function-style cast or type construction
+o    std::uniform_real_distribution<double> unif(0.0,T);
+o    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:52:2: error: expected ';' at end of declaration
+o}
+o ^
+o ;
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:59:24: error: expected '(' for function-style cast or type construction
+o    std::random_device rd; // Generate a random device.
+o    ~~~~~~~~~~~~~~~~~~ ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:66:2: error: expected ';' at end of declaration
+o}
+o ^
+o ;
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:71:1: error: expected '}'
+o^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:44:5: note: to match this '{'
+o    {
+o    ^
+o/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:105:2: error: expected ';' after class
+o};
+o ^
+o ;
+o12 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp83f6663e3772b741^abd07c3f3772b741^-2611"In file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:12:/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:45:14: error: no type named 'vector' in namespace 'std'; did you mean 'hecto'?        std::vector parentvir =        ~~~~~^~~~~~             hecto/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/ratio:264:43: note: 'hecto' declared heretypedef ratio<                100LL, 1LL> hecto;                                          ^In file included from /Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:12:/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:46:5: error: expected expression    }    ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:30:5: error: expected expression    for (int i = 0; i < vtypes.size(); i++)    ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:36:2: error: expected ';' at end of declaration} ^ ;/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:39:6: error: illegal initializer (only variables can be initialized)void betweenHost( int c, std::vector<double> t )     ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:41:2: error: expected ';' at end of declaration} ^ ;/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:45:44: error: expected '(' for function-style cast or type construction    std::uniform_real_distribution<double> unif(0.0,T);    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:52:2: error: expected ';' at end of declaration} ^ ;/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:59:24: error: expected '(' for function-style cast or type construction    std::random_device rd; // Generate a random device.    ~~~~~~~~~~~~~~~~~~ ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:66:2: error: expected ';' at end of declaration} ^ ;/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp:71:1: error: expected '}'^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:44:5: note: to match this '{'    {    ^/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/CrossScale.h:105:2: error: expected ';' after class}; ^ ;12 errors generated.-0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/CrossScaleSim/CrossScaleSim/main.cpp0000000000000000^3289"CompileC Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.o CrossScaleSim/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/CrossScaleSim-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/CrossScaleSim/main.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Intermediates/CrossScaleSim.build/Debug/CrossScaleSim.build/Objects-normal/x86_64/main.o"36"E7EE4773-4553-40DA-930D-116E360A286E-
+
+CLd "/Users/Prianna/Documents/Courses/SIR Models/CrossScaleSim/Build/Products/Debug/CrossScaleSim" normal x86_64
+r0
+

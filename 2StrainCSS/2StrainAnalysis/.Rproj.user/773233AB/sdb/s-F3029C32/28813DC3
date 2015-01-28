@@ -1,0 +1,16 @@
+{
+    "contents" : "N = length(WT06P4V1$V1)\nKidType1Run4V1 <- vector()\nKidType2Run4V1 <- vector()\nKidBothRun4V1 <- vector()\nPType1Run4V1 <- vector()\nPType2Run4V1 <- vector()\nPBothRun4V1 <- vector()\nNumV1Run4V1 <- vector()\nNumV2Run4V1 <- vector()\nfor(i in 1:N) \n{\n  if(WT06P4V1$V6[i] < 3)\n  {\n    if( WT06P4V1$V1[i] > 0 && WT06P4V1$V2[i] > 0 )\n    {\n      PBothRun4V1 <- c(PBothRun4V1, WT06P4V1$V7[i])\n    }\n    else if(WT06P4V1$V1[i] == 0 && WT06P4V1$V2[i] > 0)\n    {\n      PType2Run4V1 <- c(PType2Run4V1, WT06P4V1$V7[i])\n    }\n    else ##( WT06P4V1$V1[i] > 0 && WT06P4V1$V2[i] == 0 )\n    {\n      PType1Run4V1 <- c(PType1Run4V1, WT06P4V1$V7[i])\n    }\n  }\n  if(WT06P4V1$V6[i] > 0)\n  {\n    if( WT06P4V1$V1[i] > 0)\n    {\n      NumV1Run4V1 <- c(NumV1Run4V1, WT06P4V1$V1[i])\n    }\n    if( WT06P4V1$V2[i] > 0)\n    {\n      NumV2Run4V1 <- c(NumV2Run4V1, WT06P4V1$V2[i])\n    }\n    if( WT06P4V1$V1[i] > 0 && WT06P4V1$V2[i] > 0 )\n    {\n      KidBothRun4V1 <- c(KidBothRun4V1, WT06P4V1$V1[i]+WT06P4V1$V2[i])\n    }\n    else if(WT06P4V1$V1[i] == 0 && WT06P4V1$V2[i] > 0)\n    {\n      KidType2Run4V1 <-c(KidType2Run4V1, WT06P4V1$V2[i])\n    }\n    else if( WT06P4V1$V1[i] > 0 && WT06P4V1$V2[i] == 0 )\n    {\n      KidType1Run4V1 <-c(KidType1Run4V1, WT06P4V1$V1[i])\n    }\n    else\n    {\n      ##\n    }\n  }\n}\nsumPBothRun4V1 <- sum(PBothRun4V1)\nsumPType1Run4V1 <- sum(PType1Run4V1)\nsumPType2Run4V1 <- sum(PType2Run4V1)",
+    "created" : 1380256450761.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2608204683",
+    "id" : "28813DC3",
+    "lastKnownWriteTime" : 1380648530,
+    "path" : "~/Documents/Courses/SIRModels/2StrainCSS/2StrainAnalysis/ComputeChildren.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

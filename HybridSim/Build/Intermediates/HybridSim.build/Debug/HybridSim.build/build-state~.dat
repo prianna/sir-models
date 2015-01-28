@@ -1,0 +1,175 @@
+THybridSim
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulation.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/HybridSim" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/HybridSim.LinkFileList
+c0000000051A44AF00000000000000120
+t1369721584
+s288
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/gillespie.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulations.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/HybridSim
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulation.cpp
+c0000000051A44AF00000000000001277
+t1369721584
+s4727
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulations.cpp
+c0000000051A4175D00000000000000A9
+t1369708381
+s169
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/gillespie.cpp
+c0000000051A4173900000000000000A5
+t1369708345
+s165
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp
+c0000000051A44AF00000000000000949
+t1369721584
+s2377
+i<iostream>
+
+N/Users/Prianna/Documents/Courses/SIR Models/HybridSim/simulations.cpp
+c0000000051A4175D00000000000000A9
+t1369708381
+s169
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulation.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulations.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/gillespie.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/simulations.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies789951708254b741^f7cc5a708254b741^---0#1#0#--18"Check dependencies36"A6C580AB-9D46-455E-B79B-42C7D9A81BE4-
+
+CCompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/gillespie.o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/gillespie.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s391414384.353202
+e391414385.438675
+r1
+xCompileC
+xBuild/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.o
+x/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:23:29: warning: unused variable 'str' [-Wunused-variable]
+o        char FileName[1000],str[200];
+o                            ^
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:19:11: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]
+o    srand(time(0));
+o    ~~~~~ ^~~~~~~
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:82:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&beta1);
+o               ~~~  ^~~~~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:85:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&beta2);
+o               ~~~  ^~~~~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:88:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&mu);
+o               ~~~  ^~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:91:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&lambda);
+o               ~~~  ^~~~~~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:94:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&dr);
+o               ~~~  ^~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:97:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&del);
+o               ~~~  ^~~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:100:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&S0);
+o               ~~~  ^~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:103:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&I10);
+o               ~~~  ^~~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:106:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&I20);
+o               ~~~  ^~~~
+o               %lf
+o/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:109:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]
+o    fscanf(in,"%lf",&MAX_TIME);
+o               ~~~  ^~~~~~~~~
+o               %lf
+o12 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cppe09f5a708254b741^384c70718254b741^-2947"/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:23:29: warning: unused variable 'str' [-Wunused-variable]        char FileName[1000],str[200];                            ^/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:19:11: warning: implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int' [-Wshorten-64-to-32]    srand(time(0));    ~~~~~ ^~~~~~~/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:82:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&beta1);               ~~~  ^~~~~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:85:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&beta2);               ~~~  ^~~~~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:88:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&mu);               ~~~  ^~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:91:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&lambda);               ~~~  ^~~~~~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:94:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&dr);               ~~~  ^~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:97:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&del);               ~~~  ^~~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:100:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&S0);               ~~~  ^~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:103:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&I10);               ~~~  ^~~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:106:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&I20);               ~~~  ^~~~               %lf/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp:109:21: warning: format specifies type 'double *' but the argument has type 'const double *' [-Wformat]    fscanf(in,"%lf",&MAX_TIME);               ~~~  ^~~~~~~~~               %lf12 warnings generated.12(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'str'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^22#28#22#28#377#0#19"Unused Entity Issue--2@84"Implicit conversion loses integer precision: 'time_t' (aka 'long') to 'unsigned int'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^18#10#18#10#289#0#14"Semantic Issue2(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^18#10#18#17#289#6#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^18#4#18#9#283#0#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^81#20#81#20#1824#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^81#20#81#26#1824#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^81#15#81#18#1819#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^81#15#81#18#1819#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^84#20#84#20#1883#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^84#20#84#26#1883#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^84#15#84#18#1878#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^84#15#84#18#1878#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^87#20#87#20#1942#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^87#20#87#23#1942#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^87#15#87#18#1937#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^87#15#87#18#1937#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^90#20#90#20#1998#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^90#20#90#27#1998#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^90#15#90#18#1993#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^90#15#90#18#1993#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^93#20#93#20#2058#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^93#20#93#23#2058#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^93#15#93#18#2053#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^93#15#93#18#2053#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^96#20#96#20#2114#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^96#20#96#24#2114#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^96#15#96#18#2109#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^96#15#96#18#2109#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^99#20#99#20#2171#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^99#20#99#23#2171#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^99#15#99#18#2166#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^99#15#99#18#2166#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^102#20#102#20#2227#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^102#20#102#24#2227#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^102#15#102#18#2222#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^102#15#102#18#2222#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^105#20#105#20#2284#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^105#20#105#24#2284#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^105#15#105#18#2279#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^105#15#105#18#2279#3#-2@75"Format specifies type 'double *' but the argument has type 'const double *'-391414385#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^108#20#108#20#2341#0#19"Format String Issue3(3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^108#20#108#29#2341#1#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^108#15#108#18#2336#3#3@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^108#15#108#18#2336#3#-0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/main.cpp0000000000000000^3133"CompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.o HybridSim/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/HybridSim"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/main.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/main.o"36"58EAE5F2-DD0A-45AE-BEE9-CCA0C9852B10-
+
+CCompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulation.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s391414384.353200
+e391414385.371552
+r1
+xCompileC
+xBuild/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.o
+x/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulation.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulation.cppe3aa5a708254b741^eb1c5f718254b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/HybridSim/HybridSim/../simulation.cpp0000000000000000^3175"CompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.o HybridSim/../simulation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/HybridSim"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/HybridSim-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulation.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulation.o"36"FE5C9A8C-56E9-49FD-940B-D9FC947A924C-
+
+CCompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulations.o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/HybridSim/../simulations.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/simulations.o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/simulations.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/HybridSim" normal x86_64
+s391414385.449319
+e391414385.919023
+r1
+xLd
+x/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/HybridSim
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Link /Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/HybridSim354273718254b741^2c44eb718254b741^---0#0#0#--831"Ld Build/Products/Debug/HybridSim normal x86_64    cd "/Users/Prianna/Documents/Courses/SIR Models/HybridSim"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug" "-F/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug" -filelist "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Intermediates/HybridSim.build/Debug/HybridSim.build/Objects-normal/x86_64/HybridSim.LinkFileList" -mmacosx-version-min=10.8 -stdlib=libc++ -o "/Users/Prianna/Documents/Courses/SIR Models/HybridSim/Build/Products/Debug/HybridSim"36"1CF34E3B-0BA9-436C-8281-41D46293FC48-
+

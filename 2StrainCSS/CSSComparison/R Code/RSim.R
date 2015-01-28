@@ -1,0 +1,182 @@
+# the cross scale simulator
+
+# basic idea of the model is that we have k viral strains
+# that compete within any infected host. The within-host
+# dynamics of these viral strains is specified by the within.host
+# function (e.g. a linear model below for illustrative purposes).
+# An infected host only begins transmitting when the total viral
+# load reaches the critical viral load (v.crit) which is calculated
+# in the function, critical. For a host with a given viral load
+# that has made a contact with an infected individual, the
+# function transmission determines the initial viral load in the
+# contacted individual. Finally, the function between.host runs
+# the full dynamics by tracking each generation of infected hosts.
+# These infected hosts can infect others for T units of time after
+# their viral load hits v.crit. During these T units of time, they
+# may contacts at a rate beta and transmit to the next generation of hosts
+
+# need the following library to compute the matrix exponential 
+
+library(Matrix)
+
+###########################
+# global parameter choices (can change this latter)
+###########################
+
+k=2; # number of viral types
+N=10^10 # maximal load
+v.crit=10^4 # critical load for transmission
+beta=5/T # contact rate
+b=seq(1e-10,0.0,length=k) # weights for transmission
+T=15 # length of infeciton period after viral load hits v.crit
+t.max=15 # search for v.crit on the interval (0,t.max). 
+#May need to adjust this depending on parameter values. 
+
+
+# the within host dynamics parameters for a simple linear model of the form A=diag(r)+M 
+
+r=seq(1.0, 0.0, length=k) # growth rates of viral types
+M=matrix(0,k,k) # mutation matrix (one steps to the right)
+M[-1,-k]=diag(k-k)*0.01
+A=M+diag(r) # the viral dynamic matrix
+
+##############################
+# the within host function
+##############################
+# input: initial condition v, vector of times 
+# output: list with matrix with viral numbers at the desired times and the time to reaching v.crit
+# this within host model gives exponential growth until the population hits the maximal viral load
+# N at which time the dynamics are normalized. Note: this within.host function first solves the time
+# to v.crit with the function critical   and uses that initial condition. 
+
+within.host=function(v,times){
+  L=length(times) # number of evaluations
+  k=length(v) # number of viral types
+  V=matrix(0,k,L) # matrix for output; columns are the viral loads at the specified times. 
+  t.crit=critical(v) # solve for time to v.crit
+  for(i in 1:L){
+    temp=as.matrix(expm(A*(t.crit+times[i]))%*%v);
+    if(sum(temp)>N)temp=N*temp/sum(temp) # normalize if viral load is greater than N
+    V[,i]=temp
+  }
+  return(list(V=V,t.crit=t.crit))
+}
+
+#############################
+# the critical function
+#############################
+# input : viral column vector
+# output: time to reach v.crit
+
+critical=function(v){
+  f=function(t)(sum(expm(A*t)%*%v)-v.crit)^2 
+  out=optimize(f,c(0,t.max))
+  t=out$minimum
+  return(t)	
+}
+
+############################
+# single strain R0 function
+############################
+# input: nada
+# output: R0 (vector)
+# computes the R0s for the single strains 
+
+R.naught=function(){
+  R=numeric(k)
+  for(i in 1:k){
+    S=function(t)exp(-b[i]*pmin(v.crit*exp(r[i]*t),N))
+    R[i]=beta*T*(1-integrate(S,0,T)$value/T)
+  }
+  return(R)	
+}
+
+
+###################################
+# the transmission function
+###################################
+# input: matrix of viral column vectors
+# output: viral type of newly infected
+
+transmission=function(V){
+  n=length(V[1,]) # number of viral vectors
+  W=matrix(rpois(n=k*n,lambda=V*b),k,n)
+  return(W)
+}
+
+#######################################
+# between host dynamics (the cross scale model)
+########################################
+# input: initial infected type v, maximum cases
+# output: list with who (who infected this individual, 0 for case 1), when (when was this individual infected), type (matrix of types)
+
+between.host=function(v,cases){
+  type=matrix(v,k,1) # holds the intial viral types for all individuals; dynamically increased by adding columns. 
+  who=c(0) # vector of who was the parent of the infected individual
+  when=c(0) # when the individual was initially infected
+  gen=c(0) # generation when individual was infected
+  total=1 # total cases
+  current=1 # current cases
+  gen.count=1
+  
+  while(total<(cases+1)&&current>0){
+    # next line determines the number of contacts each individual in the current generation has with other individuals 
+    kids=rpois(n=current,lambda=beta*T)
+    # the next loop determines at what times the contact events occur, the transmission of viral particles, and removes any instances where transmitted load is zero
+    for(i in 1:current){ # loop for all individuals in current generation
+      if(kids[i]>0){ # if current individual has a positive number of contacts do the following 
+        v.start=type[,total-current+i] # get the initial viral load of the current individual 
+        t=runif(kids[i])*T # find the times after t.crit at which the contact events occur
+        out=within.host(v,t) # find the viral load at the contact events and t.crit
+        v.out=out$V
+        t.crit=out$t.crit
+        w=transmission(v.out) # find the transmitted viral load at these contact events
+        viral.counts=colSums(w) # find the total viral load due to the transmission events
+        positive=which(viral.counts>0) # find which transmission events included a positive number of viral particles
+        if(length(positive)>0){ # if there were some real transmission events do the following
+          who=c(who,rep(total-current+i,length(positive))) # make the current individual the parent of all the newly infected individuals 
+          mom.when=when[total-current+i] # find the time when mom was infected. 
+          when=c(when,t[positive]+mom.when+t.crit) # add the times at which the newly infected individuals got infected
+          
+          type=cbind(type,w[,positive]) # add the types for the newly infected individuals 
+          kids[i]=length(positive) # reset kids[i] to the number of newly infected individuals	
+        }
+        if(length(positive)==0)kids[i]=0 # reset kids[i] when there where no infections
+        
+      }
+    }
+    gen=c(gen,rep(gen.count,sum(kids))) # add the generation times for all the newly infected individuals for the current generation 
+    current=sum(kids) # update the count for the current number of infected individuals 
+    total=total+current # update the count for the cummulative number of infected individuals
+    gen.count=gen.count+1 # increate the generation count
+    
+  }
+  
+  return(list(when=when,who=who,type=type,gen=gen))
+  
+  
+}
+
+# running the simulation
+v=c(10,rep(0,k-1))
+cases=100
+out=between.host(v=v,cases=cases)
+out
+
+#plotting total viral sizes by generation?
+
+data=matrix(0,max(out$gen)+1,k)
+totals=numeric(max(out$gen)+1)
+for(i in 0:(max(out$gen))){
+  I=which(out$gen==i)
+  if(length(I)>1)data[i+1,]=rowSums(out$type[,I])/length(I)
+  if(length(I)==1)data[i+1,]=out$type[,I]
+  totals[i+1]=length(I)
+}
+
+par(cex.lab=1.5,cex.axis=1.5,mfrow=c(1,2))
+matplot(data,type="b",pch=21,bg=1:k,ylab="viral number per infected",xlab="generation")
+plot(totals,type="b",pch=21,bg="black",ylab="number of infected",xlab="generation")
+
+# computing all of the R0s for the single viral types. 
+R.naught()

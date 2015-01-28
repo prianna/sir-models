@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1384814771548.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "34715275",
+    "lastKnownWriteTime" : 4507209216,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "R0WTWT",
+        "contentUrl" : "content?title=R0WTWT&file=2d5e4f9ffcaa4a1ea8c1d845be898d20.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 7,
+        "totalObservations" : 1131,
+        "variables" : 7
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1384836877881.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CE3FE3BB",
+    "lastKnownWriteTime" : 4507209216,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "df4",
+        "contentUrl" : "content?title=df4&file=c22d4ab655fd4bd7b6be0cba4dd25cab.htm",
+        "displayedObservations" : "5",
+        "displayedVariables" : 2,
+        "totalObservations" : "5",
+        "variables" : "2"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

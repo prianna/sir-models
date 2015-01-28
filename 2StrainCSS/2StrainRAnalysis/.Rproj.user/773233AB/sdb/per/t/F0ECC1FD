@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1384820304345.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F0ECC1FD",
+    "lastKnownWriteTime" : 7308604914264011776,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "R0SS16",
+        "contentUrl" : "content?title=R0SS16&file=826b4b52abe84d8bb7bc575d9aaec4e2.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 6,
+        "totalObservations" : "1495",
+        "variables" : "6"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,190 @@
+T3StrainCSS
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/3StrainCSS" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C15EE700000000000000AA
+t1371627239
+s170
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp
+c0000000052058E720000000000001F48
+t1376095858
+s8008
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.h
+c000000005204359C00000000000011C4
+t1376007580
+s4548
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.cpp
+c00000000520595FC0000000000000C27
+t1376097788
+s3111
+i"ODESolver.h"
+i"globals.h"
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.h
+c000000005205916600000000000003FE
+t1376096614
+s1022
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../globals.h
+c00000000520595A40000000000000540
+t1376097700
+s1344
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../main.cpp
+c00000000520588D5000000000000047E
+t1376094421
+s1150
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/main.cpp
+c00000000520587780000000000000119
+t1376094072
+s281
+i<iostream>
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/3StrainCSS.LinkFileList
+c000000005205889700000000000001BB
+t1376094359
+s443
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.o
+t1376097701
+s557500
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.o
+t1376097788
+s128572
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o
+t1376097700
+s190924
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/3StrainCSS
+t1376097788
+s168748
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/CrossScale.cpp
+c00000000520435980000000000001F0A
+t1376007576
+s7946
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/ODESolver.cpp
+c00000000520424180000000000000AB0
+t1376003096
+s2736
+i"ODESolver.h"
+i"globals.h"
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/ODESolver.h
+c000000005205916600000000000003FE
+t1376096614
+s1022
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/globals.h
+c00000000520595A40000000000000540
+t1376097700
+s1344
+
+N/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/main.cpp
+c0000000052043258000000000000047A
+t1376006744
+s1146
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../main.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/main.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/CrossScale.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/ODESolver.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/main.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2d958316c5beb741^06d48316c5beb741^---0#1#0#--18"Check dependencies36"593F8734-E2C8-4F0C-A96C-764D6BA2299E-
+
+CCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397790500.327529
+e397790501.296424
+r1
+xCompileC
+xBuild/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.o
+x/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp:260:128: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+o            (*parent).children.push_back( new individual( (t_crit+times[i]), wtypes, parent, (population.size()+children.size()+1), parent_gen+1 ) );
+o                                              ~~~~~~~~~~                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp02f05324cdb5b741^f7e64b25cdb5b741^-494"/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp:260:128: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]            (*parent).children.push_back( new individual( (t_crit+times[i]), wtypes, parent, (population.size()+children.size()+1), parent_gen+1 ) );                                              ~~~~~~~~~~                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@69"Implicit conversion loses integer precision: 'unsigned long' to 'int'-397790501#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@87"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/3StrainCSS/CrossScale.cpp0000000000000000^259#127#259#127#7499#0#14"Semantic Issue2(3@87"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/3StrainCSS/CrossScale.cpp0000000000000000^259#94#259#129#7466#34#3@87"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/3StrainCSS/CrossScale.cpp0000000000000000^259#46#259#56#7418#0#-0#0#0#-19%DVTDocumentLocation4@101"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/3StrainCSS/3StrainCSS/../CrossScale.cpp0000000000000000^3214"CompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.o 3StrainCSS/../CrossScale.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../CrossScale.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.o"36"45E6DA42-CBC0-4DAD-AFA9-6270628A1B2D-
+
+CCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/CrossScale.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/CrossScale.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397790588.113568
+e397790588.719213
+r1
+xCompileC
+xBuild/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.o
+x/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.cpp35291d7ccdb5b741^b01db87ccdb5b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/3StrainCSS/3StrainCSS/../ODESolver.cpp0000000000000000^3208"CompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.o 3StrainCSS/../ODESolver.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../ODESolver.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.o"36"0FDB8006-082F-4139-8AFA-74DD527D3F05-
+
+CCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/ODESolver.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/ODESolver.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s397790500.327501
+e397790501.073659
+r1
+xCompileC
+xBuild/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o
+x/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../main.cpp28ef5324cdb5b741^fdda1225cdb5b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/3StrainCSS/3StrainCSS/../main.cpp0000000000000000^3178"CompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o 3StrainCSS/../main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/3StrainCSS-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/../main.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o"36"88D93739-A1E0-424A-8895-062CFE445D21-
+
+CCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/3StrainCSS/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/3StrainCSS" normal x86_64
+s397790588.726098
+e397790588.746971
+r1
+xLd
+x/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/3StrainCSS
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/3StrainCSS78f2b97ccdb5b741^3b39bf7ccdb5b741^---0#0#0#--841"Ld Build/Products/Debug/3StrainCSS normal x86_64    cd "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug" "-F/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug" -filelist "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Intermediates/3StrainCSS.build/Debug/3StrainCSS.build/Objects-normal/x86_64/3StrainCSS.LinkFileList" -mmacosx-version-min=10.8 -stdlib=libc++ -o "/Users/Prianna/Documents/Courses/SIR Models/3StrainCSS/Build/Products/Debug/3StrainCSS"36"8BCF9061-30F8-498D-9A54-AA88B128C467-
+

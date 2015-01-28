@@ -1,0 +1,21 @@
+{
+    "contents" : "",
+    "created" : 1380256089026.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FA75D437",
+    "lastKnownWriteTime" : 4553600512,
+    "path" : null,
+    "properties" : {
+        "caption" : "MT06P1",
+        "contentUrl" : "content?title=MT06P1&file=b15860ab58a84c54a36ca1ad2778a165.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 7,
+        "totalObservations" : "22476",
+        "variables" : "7"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

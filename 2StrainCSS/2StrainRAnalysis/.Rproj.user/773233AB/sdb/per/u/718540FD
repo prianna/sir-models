@@ -1,0 +1,17 @@
+{
+    "contents" : "Parents <- R0SS06$V1\nSumParents<- sum(Parents)\nOffspring <- SumParents - 100*1000\nmeanpart5 <- c(meanpart5, Offspring/1000)\nb5 <- c(b5, 10^-9.0)\nr5 <- c(r5, 0.868)",
+    "created" : 1384834193000.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1819902415",
+    "id" : "718540FD",
+    "lastKnownWriteTime" : 4507209344,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

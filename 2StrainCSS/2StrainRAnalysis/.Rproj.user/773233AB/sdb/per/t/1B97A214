@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1384816940186.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1B97A214",
+    "lastKnownWriteTime" : 4510103668,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "R0SS2",
+        "contentUrl" : "content?title=R0SS2&file=1ddd3f0793f247e3bd4c57ce06b7f0fb.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 6,
+        "totalObservations" : "1628",
+        "variables" : "6"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "plot(rvr0$V1, rvr0$V2, main=\"Growth Rate vs R0\", \n     xlab=\"Growth Rate\", ylab=\"Calculated R0\", pch=1, cex=0.5, col=\"red\")\n\nlines(rvr0$V1, rvr0$V2, pch=1, lty=1, cex=0.5, col=\"red\")\n\nlines(rvr0$V1, rvr0$V3, pch=22, lty=2, cex=0.5, col=\"black\")\n\nlegend(0.01, 3.5, c(\"C++\",\"R\"), cex=0.8, \n       col=c(\"red\",\"black\"), lty=1:2);\n\nplot(rvr0$V1, rvr0$V3, main=\"Growth Rate vs R0\", \n     xlab=\"Growth Rate\", ylab=\"Calculated R0\", pch=22, lty=2, cex=0.5, col=\"black\")\n\nlines(rvr0$V1, rvr0$V2, pch=1, cex=0.5, col=\"red\")\n\nlines(rvr0$V1, rvr0$V3, pch=22, lty=2, cex=0.5, col=\"black\")\n\nlegend(1.25,0.002, c(\"C++\",\"R\"), cex=0.8, \n       col=c(\"red\",\"black\"), lty=1:2)",
+    "created" : 1385351534785.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3705200359",
+    "id" : "9315F048",
+    "lastKnownWriteTime" : 4469943936,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled4"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

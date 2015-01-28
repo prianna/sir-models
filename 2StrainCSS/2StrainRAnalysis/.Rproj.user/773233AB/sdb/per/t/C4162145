@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1384835751509.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C4162145",
+    "lastKnownWriteTime" : 3761974846842470400,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "R0SS08",
+        "contentUrl" : "content?title=R0SS08&file=7df6adfad681474c9a3e736767b2ae44.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 6,
+        "totalObservations" : "1214",
+        "variables" : "6"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

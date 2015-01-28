@@ -1,0 +1,89 @@
+TCalculateR
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.o /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.o /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C15EE700000000000000AA
+t1371627239
+s170
+
+N/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.LinkFileList
+c000000005243ADB80000000000000124
+t1380167096
+s292
+
+N/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Products/Debug/CalculateR
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp
+c0000000052438326000000000000027E
+t1380156198
+s638
+
+N/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp
+c000000005243ADB8000000000000057B
+t1380167096
+s1403
+i<iostream>
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp
+r0
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7ac56f38e5f3b741^e50e7338e5f3b741^---0#1#0#--18"Check dependencies36"4E4CDA1F-5337-48DB-BEC5-ACD8E5F738C0-
+
+CCompileC Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.o /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401859896.452499
+e401859896.744737
+r0
+xCompileC
+xBuild/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.o
+x/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp:9:
+o/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.h:13:10: fatal error: 'odeint.hpp' file not found
+o#include "odeint.hpp"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp69ff7338e5f3b741^dfa3be38e5f3b741^-283"In file included from /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp:9:/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.h:13:10: fatal error: 'odeint.hpp' file not found#include "odeint.hpp"         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@27"'odeint.hpp' file not found-401859896#18446744073709551615#0#1(2@104"In file included from /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp:9:-401859896#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp0000000000000000^8#9#8#9#153#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.h0000000000000000^12#9#12#9#237#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp0000000000000000^3169"CompileC Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.o CalculateR/CalculateR.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Prianna/Documents/Courses/SIRModels/CalculateR    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-generated-files.hmap -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-own-target-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-all-target-headers.hmap -iquote /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-project-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/DerivedSources/x86_64 -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/DerivedSources -F/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Products/Debug -MMD -MT dependencies -MF /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.d --serialize-diagnostics /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.dia -c /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.cpp -o /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/CalculateR.o36"FBFBB38C-D740-4C58-880D-91AC44AC7A3A-
+
+CCompileC Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.o /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401859896.452499
+e401859896.945596
+r0
+xCompileC
+xBuild/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.o
+x/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp:13:
+o/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.h:13:10: fatal error: 'odeint.hpp' file not found
+o#include "odeint.hpp"
+o         ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp54007438e5f3b741^5a10f238e5f3b741^-278"In file included from /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp:13:/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/CalculateR.h:13:10: fatal error: 'odeint.hpp' file not found#include "odeint.hpp"         ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp0000000000000000^3133"CompileC Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.o CalculateR/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Prianna/Documents/Courses/SIRModels/CalculateR    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-generated-files.hmap -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-own-target-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-all-target-headers.hmap -iquote /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/CalculateR-project-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/DerivedSources/x86_64 -I/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/DerivedSources -F/Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Products/Debug -MMD -MT dependencies -MF /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.dia -c /Users/Prianna/Documents/Courses/SIRModels/CalculateR/CalculateR/main.cpp -o /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Intermediates/CalculateR.build/Debug/CalculateR.build/Objects-normal/x86_64/main.o36"119BE34B-4A89-47B1-BB67-77E5BBBC3C34-
+
+CLd /Users/Prianna/Documents/Courses/SIRModels/CalculateR/Build/Products/Debug/CalculateR normal x86_64
+r0
+

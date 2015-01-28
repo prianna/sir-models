@@ -1,0 +1,206 @@
+TSimplex
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/Simplex normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C15EE700000000000000AA
+t1371627239
+s170
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/Simplex.LinkFileList
+c00000000523A81F40000000000000086
+t1379566068
+s134
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.o
+t1379566035
+s206752
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o
+t1379566069
+s346816
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.o
+t1379566035
+s78464
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/Simplex
+t1379566070
+s84224
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.cpp
+c000000004C3037DE0000000000000215
+t1278228446
+s533
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp
+c00000000523A81F40000000000000835
+t1379566068
+s2101
+i<iostream>
+i<vector>
+i<ctime>
+i<algorithm>
+i<iterator>
+i<cmath>
+i"simplex.h"
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../simplex.h
+c00000000523A8232000000000000198D
+t1379566130
+s6541
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../spectrum_RSS.cpp
+c000000004C30487E00000000000002C9
+t1278232702
+s713
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/main.cpp
+c00000000523A81810000000000000117
+t1379565953
+s279
+i<iostream>
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/data.cpp
+c000000004C3037DE0000000000000215
+t1278228446
+s533
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/data.h
+c000000004C3058B000000000000000B5
+t1278236848
+s181
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/main.cpp
+c000000004C30D32000000000000004B2
+t1278268192
+s1202
+i<iostream>
+i<vector>
+i<limits>
+i<algorithm>
+i<iterator>
+i<cmath>
+i<ctime>
+i"data.h"
+i"simplex.h"
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/simplex.h
+c000000004C30CF960000000000001999
+t1278267286
+s6553
+
+N/Users/Prianna/Documents/Courses/SIRModels/Simplex/spectrum_RSS.cpp
+c000000004C30487E00000000000002C9
+t1278232702
+s713
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.cpp
+r0
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp
+r0
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../spectrum_RSS.cpp
+r0
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/main.cpp
+r0
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/Simplex/data.cpp
+r0
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/Simplex/main.cpp
+r0
+
+CBuild AST from /Users/Prianna/Documents/Courses/SIRModels/Simplex/spectrum_RSS.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies278939b4b9eab741^64e739b4b9eab741^---0#1#0#--18"Check dependencies36"B4A896DA-9777-4925-88FC-3392AE8738F3-
+
+CCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401258831.669879
+e401258835.201967
+r1
+xCompileC
+xBuild/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.o
+x/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.cppf759c54fb9eab741^39b53353b9eab741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.cpp0000000000000000^3022"CompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.o Simplex/../data.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Prianna/Documents/Courses/SIRModels/Simplex    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-generated-files.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-own-target-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-all-target-headers.hmap -iquote /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-project-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/DerivedSources/x86_64 -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/DerivedSources -F/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug -MMD -MT dependencies -MF /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.d --serialize-diagnostics /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.dia -c /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../data.cpp -o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.o36"512698DD-062D-48AD-BA43-49F7E47D9298-
+
+CCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/data.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/data.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401258932.233835
+e401258932.888556
+r1
+xCompileC
+xBuild/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o
+x/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:21:
+o/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../simplex.h:56:11: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o    int N=init.size();                         //space dimension
+o        ~ ^~~~~~~~~~~
+o/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:67:15: note: in instantiation of function template specialization 'BT::Simplex<double, Rosenbrock>' requested here
+o    printcon( Simplex(Rosenbrock(), init) );  cout<<endl;
+o              ^
+oIn file included from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:21:
+o/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../simplex.h:56:11: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+o    int N=init.size();                         //space dimension
+o        ~ ^~~~~~~~~~~
+o/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:69:15: note: in instantiation of function template specialization 'BT::Simplex<double, double (*)(std::__1::vector<double, std::__1::allocator<double> >)>' requested here
+o    printcon( Simplex(rosenbrock, init, 1e-7, simplex, 1E5) ); cout<<endl;
+o              ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cppaef33bb4b9eab741^3a77e3b4b9eab741^-1377"In file included from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:21:/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../simplex.h:56:11: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]    int N=init.size();                         //space dimension        ~ ^~~~~~~~~~~/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:67:15: note: in instantiation of function template specialization 'BT::Simplex<double, Rosenbrock>' requested here    printcon( Simplex(Rosenbrock(), init) );  cout<<endl;              ^In file included from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:21:/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../simplex.h:56:11: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]    int N=init.size();                         //space dimension        ~ ^~~~~~~~~~~/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:69:15: note: in instantiation of function template specialization 'BT::Simplex<double, double (*)(std::__1::vector<double, std::__1::allocator<double> >)>' requested here    printcon( Simplex(rosenbrock, init, 1e-7, simplex, 1E5) ); cout<<endl;              ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-401258932#18446744073709551615#0#2(2@96"In file included from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:21:-401258932#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@75"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/main.cpp0000000000000000^20#9#20#9#592#0#21"Clang LLVM 1.0 Notice--2@101"In instantiation of function template specialization 'BT::Simplex<double, Rosenbrock>' requested here-401258932#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@75"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/main.cpp0000000000000000^66#14#66#14#1785#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@76"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/simplex.h0000000000000000^55#10#55#10#2216#0#14"Semantic Issue2(3@76"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/simplex.h0000000000000000^55#10#55#21#2216#10#3@76"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/simplex.h0000000000000000^55#8#55#9#2214#0#-2@87"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'-401258932#18446744073709551615#0#2(2@96"In file included from /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp:21:-401258932#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@75"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/main.cpp0000000000000000^20#9#20#9#592#0#21"Clang LLVM 1.0 Notice--2@157"In instantiation of function template specialization 'BT::Simplex<double, double (*)(std::__1::vector<double, std::__1::allocator<double> >)>' requested here-401258932#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@75"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/main.cpp0000000000000000^68#14#68#14#1903#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@76"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/simplex.h0000000000000000^55#10#55#10#2216#0#14"Semantic Issue2(3@76"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/simplex.h0000000000000000^55#10#55#21#2216#10#3@76"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/simplex.h0000000000000000^55#8#55#9#2214#0#-0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp0000000000000000^3022"CompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o Simplex/../main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Prianna/Documents/Courses/SIRModels/Simplex    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-generated-files.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-own-target-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-all-target-headers.hmap -iquote /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-project-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/DerivedSources/x86_64 -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/DerivedSources -F/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug -MMD -MT dependencies -MF /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.dia -c /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../main.cpp -o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o36"E12E174A-BB40-4CA5-99AC-87A174A6FB6B-
+
+CCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/main.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../spectrum_RSS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401258831.669887
+e401258835.202252
+r1
+xCompileC
+xBuild/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.o
+x/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../spectrum_RSS.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../spectrum_RSS.cpp425cc54fb9eab741^a5bf3353b9eab741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../spectrum_RSS.cpp0000000000000000^3070"CompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.o Simplex/../spectrum_RSS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Prianna/Documents/Courses/SIRModels/Simplex    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-generated-files.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-own-target-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-all-target-headers.hmap -iquote /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Simplex-project-headers.hmap -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/DerivedSources/x86_64 -I/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/DerivedSources -F/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug -MMD -MT dependencies -MF /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.d --serialize-diagnostics /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.dia -c /Users/Prianna/Documents/Courses/SIRModels/Simplex/Simplex/../spectrum_RSS.cpp -o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.o36"AC6135E3-F17B-4C04-86E0-6AF2B7F37B75-
+
+CCompileC Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/spectrum_RSS.o /Users/Prianna/Documents/Courses/SIRModels/Simplex/spectrum_RSS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/Simplex normal x86_64
+s401258932.900364
+e401258932.921463
+r1
+xLd
+x/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/Simplex
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/Simplex5bcde6b4b9eab741^75e5ebb4b9eab741^---0#0#0#--796"Ld Build/Products/Debug/Simplex normal x86_64    cd /Users/Prianna/Documents/Courses/SIRModels/Simplex    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug -F/Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug -filelist /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Intermediates/Simplex.build/Debug/Simplex.build/Objects-normal/x86_64/Simplex.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -o /Users/Prianna/Documents/Courses/SIRModels/Simplex/Build/Products/Debug/Simplex36"A802D1CA-7C01-4167-BF69-52ED0AAF4333-
+

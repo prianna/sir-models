@@ -1,0 +1,21 @@
+{
+    "contents" : "",
+    "created" : 1380660373533.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E6C49F5",
+    "lastKnownWriteTime" : 140202976787872,
+    "path" : null,
+    "properties" : {
+        "caption" : "WithinHost",
+        "contentUrl" : "content?title=WithinHost&file=aa0fc747708545f28dfa5b226b1a3e9d.htm",
+        "displayedObservations" : 575,
+        "displayedVariables" : 3,
+        "totalObservations" : 575,
+        "variables" : 3
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

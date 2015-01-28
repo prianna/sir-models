@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1384886437400.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1F37FA41",
+    "lastKnownWriteTime" : 140389259413760,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "df13D",
+        "contentUrl" : "content?title=df13D&file=63feef79ef1f4b0aa6fabf5b87d6daf5.htm",
+        "displayedObservations" : "5",
+        "displayedVariables" : 3,
+        "totalObservations" : "5",
+        "variables" : "3"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

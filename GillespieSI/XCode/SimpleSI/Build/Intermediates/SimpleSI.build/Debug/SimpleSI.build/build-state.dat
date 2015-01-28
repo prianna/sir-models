@@ -1,0 +1,88 @@
+TSimpleSI
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug/SimpleSI" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h
+c00000000512F9A5200000000000066C2
+t1362074194
+s26306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000512F9A530000000000004523
+t1362074195
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000512F9A530000000000003089
+t1362074195
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/string.h
+c00000000512F9A530000000000001A3A
+t1362074195
+s6714
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/SimpleSI.LinkFileList
+c000000005182D39F000000000000009C
+t1367528351
+s156
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.o
+t1368132173
+s14800
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug/SimpleSI
+t1368132173
+s15040
+
+N/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp
+c00000000518C0AC600000000000018E4
+t1368132294
+s6372
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<string.h>
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese9473346423cb741^99ba3346423cb741^---0#1#0#--18"Check dependencies36"949BA3A3-CB4E-4BC5-8B7A-7D8458B89F55-
+
+CCompileC Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389825094.202942
+e389825094.240198
+r1
+xCompileC
+xBuild/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.o
+x/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp:71:25: warning: unused variable 'str' [-Wunused-variable]
+o    char FileName[1000],str[200];
+o                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp130b3446423cb741^bf7d3d46423cb741^-228"/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp:71:25: warning: unused variable 'str' [-Wunused-variable]    char FileName[1000],str[200];                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'str'-389825094#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@106"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp0000000000000000^70#24#70#24#1938#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@106"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp0000000000000000^3328"CompileC Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.o SimpleSI/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/SimpleSI-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/SimpleSI-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/SimpleSI-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/SimpleSI-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/SimpleSI/main.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/main.o"36"A6D916F2-8704-4DD1-9589-EF139DE3E04A-
+
+CLd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug/SimpleSI" normal x86_64
+s389825094.246469
+e389825094.266185
+r1
+xLd
+x/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug/SimpleSI
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug/SimpleSI41283f46423cb741^c8234446423cb741^---0#0#0#--911"Ld Build/Products/Debug/SimpleSI normal x86_64    cd "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug" "-F/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug" -filelist "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Intermediates/SimpleSI.build/Debug/SimpleSI.build/Objects-normal/x86_64/SimpleSI.LinkFileList" -mmacosx-version-min=10.8 -stdlib=libc++ -o "/Users/Prianna/Documents/Courses/SIR Models/GillespieSI/XCode/SimpleSI/Build/Products/Debug/SimpleSI"36"7E3C06C2-F6C3-42EF-B2E6-FB90259954A2-
+

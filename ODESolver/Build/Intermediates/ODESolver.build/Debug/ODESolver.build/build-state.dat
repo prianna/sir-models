@@ -1,0 +1,108 @@
+TODESolver
+v5
+r1
+cCheck dependencies
+cCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolver" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C15EE700000000000000AA
+t1371627239
+s170
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODE.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.LinkFileList
+c00000000520AB4AA0000000000000092
+t1376433322
+s146
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolver
+t2
+s0
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.cpp
+c00000000520AB43D0000000000000099
+t1376433213
+s153
+i"ODE.h"
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.h
+c00000000520AB43D00000000000000FB
+t1376433213
+s251
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp
+c00000000520AB46400000000000000A5
+t1376433252
+s165
+i"ODESolver.h"
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.h
+c00000000520AB58800000000000003E8
+t1376433544
+s1000
+
+N/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/main.cpp
+c00000000520AAF540000000000000119
+t1376431956
+s281
+i<iostream>
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp"
+r0
+
+CBuild AST from "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/main.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies63642d08edbab741^9ece2d08edbab741^---0#1#0#--18"Check dependencies36"6B1AD40E-99A5-4E36-A729-D4F5E30AA4E2-
+
+CCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODE.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODE.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s398126344.179564
+e398126344.578554
+r1
+xCompileC
+xBuild/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o
+x/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cppe90e2e08edbab741^f31d9408edbab741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Prianna/Documents/Courses/SIR%20Models/ODESolver/ODESolver/ODESolver.cpp0000000000000000^3163"CompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o ODESolver/ODESolver.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Prianna/Documents/Courses/SIR Models/ODESolver"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-generated-files.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-own-target-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-all-target-headers.hmap" -iquote "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/ODESolver-project-headers.hmap" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/DerivedSources/x86_64" "-I/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/DerivedSources" "-F/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.d" --serialize-diagnostics "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.dia" -c "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/ODESolver.cpp" -o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.o"36"258E743B-1072-47D2-8277-0D53C4D9DB87-
+
+CCompileC Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/main.o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/ODESolver/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLd "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolver" normal x86_64
+s398126344.585867
+e398126344.686540
+r0
+xLd
+x/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolver
+xnormal
+xx86_64
+oUndefined symbols for architecture x86_64:
+o  "_main", referenced from:
+o     implicit entry/start for main executable
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Link /Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolverf7229608edbab741^f4c0af08edbab741^-245"Undefined symbols for architecture x86_64:  "_main", referenced from:     implicit entry/start for main executableld: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@25""_main", referenced from:-398126344#43#28#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@40"Implicit entry/start for main executable-398126344#71#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-398126344#117#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-398126344#165#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--831"Ld Build/Products/Debug/ODESolver normal x86_64    cd "/Users/Prianna/Documents/Courses/SIR Models/ODESolver"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug" "-F/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug" -filelist "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Intermediates/ODESolver.build/Debug/ODESolver.build/Objects-normal/x86_64/ODESolver.LinkFileList" -mmacosx-version-min=10.8 -stdlib=libc++ -o "/Users/Prianna/Documents/Courses/SIR Models/ODESolver/Build/Products/Debug/ODESolver"36"832113FD-C4C9-4093-BC66-8A29221B2115-
+
